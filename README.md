@@ -39,3 +39,10 @@ FROM orders
 GROUP BY user_id;
 
 
+
+
+## Dataset
+
+The dataset used in this project is publicly available on Kaggle:
+
+https://www.kaggle.com/datasets/psparks/instacart-market-basket-analysis
