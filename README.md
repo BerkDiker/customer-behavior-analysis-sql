@@ -37,9 +37,7 @@ SELECT
     END AS customer_segment
 FROM orders
 GROUP BY user_id;
-
-
-
+```
 
 ## Dataset
 
