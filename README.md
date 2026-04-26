@@ -24,6 +24,8 @@ Analyzed customer purchasing behavior using SQL on a large-scale e-commerce data
 
 ## Sample Query (Customer Segmentation)
 
+This query segments customers into high, medium, and low value groups based on their purchasing frequency.
+
 ```sql
 SELECT 
     user_id,
@@ -35,3 +37,5 @@ SELECT
     END AS customer_segment
 FROM orders
 GROUP BY user_id;
+
+
